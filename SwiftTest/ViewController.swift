@@ -51,7 +51,8 @@ class ViewController: UIViewController {
     }
     
     @objc func updateTimeLB() {
-        timeLB.text = String(counter)
+        timeLB.text = String(format:"%.2f", counter)
+
     }
 }
 

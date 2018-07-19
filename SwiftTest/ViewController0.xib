@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController0" customModule="SwiftTest" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ud1-zV-9x1">
+                    <rect key="frame" x="162.5" y="120" width="50.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3T-Jk-9IA">
+                    <rect key="frame" x="0.0" y="364" width="187.5" height="88"/>
+                    <color key="backgroundColor" red="0.66096540179999996" green="0.10926339290000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="YvN-th-QEM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="start">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrx-kU-tPL">
+                    <rect key="frame" x="295" y="40" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.66096540179999996" green="0.10926339290000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="Cmo-H5-PKF"/>
+                        <constraint firstAttribute="height" constant="60" id="Dbd-PM-dt0"/>
+                    </constraints>
+                    <state key="normal" title="Reset">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfy-rt-cXb">
+                    <rect key="frame" x="188" y="364" width="187" height="88"/>
+                    <color key="backgroundColor" red="0.4057756696" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="tP2-fG-W0y"/>
+                    </constraints>
+                    <state key="normal" title="pause"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wrx-kU-tPL" secondAttribute="trailing" constant="20" id="3h5-xZ-lAQ"/>
+                <constraint firstItem="s3T-Jk-9IA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="50S-fD-nOt"/>
+                <constraint firstItem="s3T-Jk-9IA" firstAttribute="width" secondItem="zfy-rt-cXb" secondAttribute="width" id="Ck0-PW-Ju7"/>
+                <constraint firstItem="Ud1-zV-9x1" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="KDg-FU-R4W"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zfy-rt-cXb" secondAttribute="trailing" id="Von-fE-cmL"/>
+                <constraint firstItem="zfy-rt-cXb" firstAttribute="top" secondItem="Ud1-zV-9x1" secondAttribute="bottom" constant="220" id="ZI6-gm-AgC"/>
+                <constraint firstItem="Ud1-zV-9x1" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="mtx-nG-2Ox"/>
+                <constraint firstItem="wrx-kU-tPL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="q2N-2y-RGh"/>
+                <constraint firstItem="s3T-Jk-9IA" firstAttribute="top" secondItem="Ud1-zV-9x1" secondAttribute="bottom" constant="220" id="siy-0x-50v"/>
+                <constraint firstItem="zfy-rt-cXb" firstAttribute="leading" secondItem="s3T-Jk-9IA" secondAttribute="trailing" id="vdH-ma-gfn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

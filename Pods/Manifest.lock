@@ -1,0 +1,20 @@
+PODS:
+  - RazzleDazzle (0.1.5)
+  - StarWars (2.0)
+
+DEPENDENCIES:
+  - RazzleDazzle
+  - StarWars (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RazzleDazzle
+    - StarWars
+
+SPEC CHECKSUMS:
+  RazzleDazzle: 0b1b9fc8ceed04bfdd4b3e8182e98ef7edacd1d1
+  StarWars: 3c68dc5e9f1b6ca6d407b1d4218fd8a65c2eacfa
+
+PODFILE CHECKSUM: ef1106a9a15723d62ab2ea54cdce8428df6f6165
+
+COCOAPODS: 1.5.3

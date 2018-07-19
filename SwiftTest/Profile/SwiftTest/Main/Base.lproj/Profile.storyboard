@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="inl-ED-7hh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--me-->
+        <scene sceneID="hqp-8K-zd8">
+            <objects>
+                <navigationController id="inl-ED-7hh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="me" image="btn_user_normal" selectedImage="btn_user_selected" id="yGm-4i-NsA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Y2s-15-vC0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="c07-Xn-y8l" kind="relationship" relationship="rootViewController" id="3KF-wv-UkY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N1t-E3-nbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2198" y="-267"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="d8d-u6-HTr">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="c07-Xn-y8l" customClass="ProfileViewController" customModule="SwiftTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1O-cw-zlf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FR0-xj-Yvl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RWm-Sl-eGa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZa-OB-BSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2983" y="-276"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_user_normal" width="26" height="26"/>
+        <image name="btn_user_selected" width="26" height="26"/>
+    </resources>
+</document>
